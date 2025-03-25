@@ -14,9 +14,12 @@ Predict metal part lifespan based on manufacturing and material features. Regres
 ## Overview
 This work aims to predict the lifespan of metal parts using manufacturing data and material features. The dataset includes information on manufacturing processes and material characteristics, along with some known metal part lifespans that will serve as training data. To achieve the best predictions, various models from both regression and classification categories, as well as model combinations, will be explored. The model that demonstrates the lowest error, determined through statistical evaluation, will be selected as the optimal solution.
 
-## Data
+## Dataset
 -Link:
+
 The Dataset contains 1000 rows, each representing a metal part with various manufacturing and 16 features/columns, with “Lifespan” as the target feature. Columns are a mix of numerical and categorical features.
 ## Installation and Setup
+```bash
 pip install -r requirements.txt
 python metal_projection.py
+```
