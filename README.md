@@ -16,5 +16,7 @@ This work aims to predict the lifespan of metal parts using manufacturing data a
 
 ## Data
 -Link:
-
 The Dataset contains 1000 rows, each representing a metal part with various manufacturing and 16 features/columns, with “Lifespan” as the target feature. Columns are a mix of numerical and categorical features.
+## Installation and Setup
+pip install -r requirements.txt
+python metal_projection.py
