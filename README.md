@@ -23,3 +23,5 @@ The Dataset contains 1000 rows, each representing a metal part with various manu
 pip install -r requirements.txt
 python metal_projection.py
 ```
+##  Exploratory Data Analysis (EDA)
+![image](https://github.com/user-attachments/assets/65a6e432-0996-48c0-8fd5-2c7f0d96601a)
