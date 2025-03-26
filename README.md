@@ -128,13 +128,25 @@ For classification models, these metrics were used:
 
 ##### Logistiction Regression Model Confusion Matrix (After Tuning)
 <img src="https://github.com/user-attachments/assets/c5c306a4-3c23-4327-84e4-160d6f579529" alt="Image Description" width="500" height="300"/>
+
 ##### ANN Model Confusion Matrix (After Tuning)
 <img src="https://github.com/user-attachments/assets/a02945b8-b46d-43b4-8579-a5075bab8739" alt="Image Description" width="500" height="300"/>
+
 **Interpretation:**  
 - The **ANN with Dropout Regularization** significantly outperforms Logistic Regression across all metrics. This improvement highlights ANN's ability to capture complex patterns in the data, especially with regularization to reduce overfitting.  
 - Logistic Regression, while simple and interpretable, struggles to model the dataset’s complexity, particularly in handling minority classes.
 
 ---
 
+## Result
 
+Polynomial Ridge Regression outperformed Random Forest Regression with a lower **MSE** of **24,066.54** and a higher **R²** score of **0.81**, effectively capturing non-linear relationships in the Lifespan data.  
+
+For classification tasks, **Logistic Regression** struggled with **24%** accuracy, while the **Artificial Neural Network (ANN)** improved accuracy to **56%**, though it still faced overfitting and class imbalance issues.  
+
+As highlighted in the **Data Exploration Section**, since the target feature is a continuous numerical value, linear regression—particularly **Ridge Regression** with polynomial features—proved to be the most effective in capturing non-linear relationships and mitigating overfitting.  
+
+Ultimately, the **Ridge Regression** model using a **2-degree polynomial** delivered the best overall performance.
+
+---
 
