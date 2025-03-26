@@ -3,13 +3,14 @@ Predict metal part lifespan based on manufacturing and material features. Regres
 
 ## Table of Contents
 - [Overview](#overview)
-- [Data](#data)
-- [Setup](#setup)
+- [Dataset](#data)
+- [Installation and Setup](#setup)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Model Training](#model-training)
+- [Data Preprocessing](#data-dreprocessing)
+- [Feature Crafting to Make Category of Target Variable](#feature-crafting)
+- [Model Development](#model-development)
+- [Evaluation Metrics](#evaluation-metrics)
 - [Results](#results)
-- [References](#references)
-- [Contact](#contact)
 
 ## Overview
 This work aims to predict the lifespan of metal parts using manufacturing data and material features. The dataset includes information on manufacturing processes and material characteristics, along with some known metal part lifespans that will serve as training data. To achieve the best predictions, various models from both regression and classification categories, as well as model combinations, will be explored. The model that demonstrates the lowest error, determined through statistical evaluation, will be selected as the optimal solution.
@@ -84,7 +85,7 @@ For predicting metal part lifespan and performing classification tasks, several 
 - **Why Chosen**: ANNs are highly effective at capturing complex, non-linear patterns in data. With high-dimensional features and potential non-linear relationships in manufacturing, ANNs can model intricate interactions between features and the target variable.
 - **Benefits**: Capable of modeling highly complex relationships, particularly useful in high-dimensional, intricate datasets, with regularization techniques like dropout to reduce overfitting.
 
-## Evaluation Metrics and Their Significance
+## Evaluation Metrics 
 
 #### Regression Metrics
 For regression models, the following metrics were used:
