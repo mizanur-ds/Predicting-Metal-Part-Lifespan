@@ -39,6 +39,30 @@ The following steps are performed during data preprocessing:
 
 3.Feature Encoding: Categorical features are encoded using One-Hot-Encoding.
 
+## Feature Crafting to Make Category of Target Variable
+
+An unsupervised clustering technique, **K-Means**, was used to categorize lifespan hours into multiple classes based on their lifespan and related features. The **Elbow Method** was applied to analyze the sum of squared distances (inertia) for k values ranging from 1 to 10. This analysis revealed an optimal k value of 6 clusters, as indicated by the elbow plot, which showed a significant reduction in inertia up to this point. This approach resulted in six distinct clusters based on lifespan, reflecting subtle variations in manufacturing quality and process parameters.
+
+<img src="https://github.com/user-attachments/assets/3df5df1e-422e-40d0-8ef9-1aeb379fa378" alt="Image Description" width="500" height="300"/>
+![image](https://github.com/user-attachments/assets/f1a2dc44-84cf-4381-9883-91071a551f4c)
+
+**Fig-1:** Number of clusters vs Inertia  
+**Fig-2:** Inertia Values for Different Clusters
+
+Based on the results, the values of the Lifespan feature were distributed into six categories under a new feature named **‘Target Hour’**. Additionally, only six clusters maintained the threshold of 1500 hours. In cases with fewer than six clusters, one category ranged between 1400 to 1600 hours, violating the threshold rule.
+
+Below is the distribution of Lifespan across the six clusters:
+
+| **Cluster** | **Lifespan Range (Hours)** |
+|-------------|----------------------------|
+| 0           | 1300.66 – 1527.35          |
+| 1           | 850.00 – 1078.50           |
+| 2           | 1082.10 – 1299.90          |
+| 3           | 1774.38 – 2134.53          |
+| 4           | 417.99 – 845.40            |
+| 5           | 1529.60 – 1761.96          |
+
+
 ## Model Development
 
 ### Model Choices
