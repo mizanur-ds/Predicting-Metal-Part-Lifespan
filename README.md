@@ -1,5 +1,6 @@
 # Predicting-Metal-Part-Lifespan
-Predict metal part lifespan based on manufacturing and material features. Regression and classification models are applied and compared to identify the most accurate prediction method.
+**Predict metal part lifespan based on manufacturing and material features. Regression and classification models are applied and compared to identify the most accurate prediction method.**
+
 ---
 
 ## Table of Contents
