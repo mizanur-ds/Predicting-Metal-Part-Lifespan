@@ -86,13 +86,13 @@ For predicting metal part lifespan and performing classification tasks, several 
 
 ## Evaluation Metrics and Their Significance
 
-### Regression Metrics
+#### Regression Metrics
 For regression models, the following metrics were used:
 
 - **Mean Squared Error (MSE):** Measures the average squared difference between predicted and actual values. Lower MSE indicates better model performance.
 - **R-squared (R²) Score:** Indicates the proportion of variance in the target variable explained by the model. Values closer to 1 indicate better performance.
 
-### Classification Metrics
+#### Classification Metrics
 For classification models, these metrics were used:
 
 - **Accuracy:** Measures the proportion of correct predictions. Useful but may be insufficient for imbalanced datasets.
@@ -102,9 +102,9 @@ For classification models, these metrics were used:
 
 ---
 
-## Performance Results
+### Performance Results
 
-### Regression Models (Polynomial Ridge Regression vs. Random Forest Regression)
+#### Regression Models (Polynomial Ridge Regression vs. Random Forest Regression)
 
 | **Model**                  | **MSE**    | **R² Score** |
 |----------------------------|-------------|---------------|
@@ -117,7 +117,7 @@ For classification models, these metrics were used:
 
 ---
 
-### Classification Models (Logistic Regression vs. ANN)
+#### Classification Models (Logistic Regression vs. ANN)
 
 | **Metric**       | **Logistic Regression (After Tuning)** | **ANN (With Regularization)** |
 |------------------|----------------------------------------|-------------------------------|
@@ -126,6 +126,10 @@ For classification models, these metrics were used:
 | Recall (Macro)     | 0.19                                   | 0.57                          |
 | F1 Score (Macro)   | 0.16                                   | 0.56                          |
 
+##### Logistiction Regression Model Confusion Matrix (After Tuning)
+<img src="https://github.com/user-attachments/assets/c5c306a4-3c23-4327-84e4-160d6f579529" alt="Image Description" width="500" height="300"/>
+##### ANN Model Confusion Matrix (After Tuning)
+<img src="https://github.com/user-attachments/assets/a02945b8-b46d-43b4-8579-a5075bab8739" alt="Image Description" width="500" height="300"/>
 **Interpretation:**  
 - The **ANN with Dropout Regularization** significantly outperforms Logistic Regression across all metrics. This improvement highlights ANN's ability to capture complex patterns in the data, especially with regularization to reduce overfitting.  
 - Logistic Regression, while simple and interpretable, struggles to model the dataset’s complexity, particularly in handling minority classes.
