@@ -43,8 +43,8 @@ The following steps are performed during data preprocessing:
 
 An unsupervised clustering technique, **K-Means**, was used to categorize lifespan hours into multiple classes based on their lifespan and related features. The **Elbow Method** was applied to analyze the sum of squared distances (inertia) for k values ranging from 1 to 10. This analysis revealed an optimal k value of 6 clusters, as indicated by the elbow plot, which showed a significant reduction in inertia up to this point. This approach resulted in six distinct clusters based on lifespan, reflecting subtle variations in manufacturing quality and process parameters.
 
-<img src="https://github.com/user-attachments/assets/3df5df1e-422e-40d0-8ef9-1aeb379fa378" alt="Image Description" width="600" height="300"/>
-<img src="https://github.com/user-attachments/assets/f1a2dc44-84cf-4381-9883-91071a551f4c" alt="Image Description" width="600" height="300"/>
+<img src="https://github.com/user-attachments/assets/3df5df1e-422e-40d0-8ef9-1aeb379fa378" alt="Image Description" width="550" height="300"/>
+<img src="https://github.com/user-attachments/assets/f1a2dc44-84cf-4381-9883-91071a551f4c" alt="Image Description" width="550" height="300"/>
 
 **Fig-1:** Number of clusters vs Inertia  
 **Fig-2:** Inertia Values for Different Clusters
@@ -61,7 +61,7 @@ Below is the distribution of Lifespan across the six clusters:
 | 3           | 1774.38 – 2134.53          |
 | 4           | 417.99 – 845.40            |
 | 5           | 1529.60 – 1761.96          |
-
+---
 
 ## Model Development
 
