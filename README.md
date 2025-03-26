@@ -24,7 +24,7 @@ pip install -r requirements.txt
 python metal_projection.py
 ```
 ##  Exploratory Data Analysis (EDA)
-<img src="https://github.com/user-attachments/assets/65a6e432-0996-48c0-8fd5-2c7f0d96601a" alt="Image Description" width="800" height="350"/>
+<img src="https://github.com/user-attachments/assets/65a6e432-0996-48c0-8fd5-2c7f0d96601a" alt="Image Description" width="1000" height="350"/>
 
 <img src="https://github.com/user-attachments/assets/5512d486-2975-44b3-90da-a687b86dec19" alt="Image Description" width="500" height="300"/> <img src="https://github.com/user-attachments/assets/c692f630-5bf5-4cba-9896-59e552b9b064" alt="Sample Image" width="500" height="300"/>
 
@@ -43,7 +43,7 @@ The following steps are performed during data preprocessing:
 
 An unsupervised clustering technique, **K-Means**, was used to categorize lifespan hours into multiple classes based on their lifespan and related features. The **Elbow Method** was applied to analyze the sum of squared distances (inertia) for k values ranging from 1 to 10. This analysis revealed an optimal k value of 6 clusters, as indicated by the elbow plot, which showed a significant reduction in inertia up to this point. This approach resulted in six distinct clusters based on lifespan, reflecting subtle variations in manufacturing quality and process parameters.
 
-<img src="https://github.com/user-attachments/assets/3df5df1e-422e-40d0-8ef9-1aeb379fa378" alt="Image Description" width="550" height="300"/> <img src="https://github.com/user-attachments/assets/f1a2dc44-84cf-4381-9883-91071a551f4c" alt="Image Description" width="550" height="300"/>
+<img src="https://github.com/user-attachments/assets/3df5df1e-422e-40d0-8ef9-1aeb379fa378" alt="Image Description" width="500" height="300"/> <img src="https://github.com/user-attachments/assets/f1a2dc44-84cf-4381-9883-91071a551f4c" alt="Image Description" width="500" height="300"/>
 
 **Fig-1:** Number of clusters vs Inertia  
 **Fig-2:** Inertia Values for Different Clusters
