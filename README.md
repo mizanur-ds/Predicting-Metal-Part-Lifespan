@@ -30,3 +30,11 @@ python metal_projection.py
 
 The target feature 'Lifespans' ranges from 418 to 2135, averaging around 1300. Numerical features like 'Heat Treat Time', 'Nickel%', and 'Iron%' show considerable variability, reflecting diverse manufacturing processes. A correlation heatmap highlights a positive correlation between cooling rate and small defects, while 'Nickel%' and 'Iron%' are negatively correlated. No strong linear relationship between lifespan and numerical features was found. Box plots reveal variability in lifespan across categorical features, with Continuous casting methods linked to longer lifespans. Scatter plots suggest complex, non-linear relationships with lifespan. Consequently, all numerical features and key categorical variables like 'partType' and 'castType' will be included in the machine learning model.
 
+## Data Preprocessing
+The following steps are performed during data preprocessing:
+
+1.Feature Scaling: Standard scaling is applied to numerical features to ensure effective regularization.
+
+2.Train-Validation-Test Split: The data is split into 80% training, 10% validation, and 10% testing.
+
+3.Feature Encoding: Categorical features are encoded using One-Hot-Encoding.
