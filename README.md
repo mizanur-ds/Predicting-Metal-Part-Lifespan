@@ -38,3 +38,26 @@ The following steps are performed during data preprocessing:
 2.Train-Validation-Test Split: The data is split into 80% training, 10% validation, and 10% testing.
 
 3.Feature Encoding: Categorical features are encoded using One-Hot-Encoding.
+
+## Model Development
+
+### Model Choices
+
+For predicting metal part lifespan and performing classification tasks, several models have been selected based on the data characteristics and problem requirements. The chosen models include Polynomial Ridge Regression, Random Forest Regression, Logistic Regression, and Artificial Neural Network (ANN).
+
+#### Polynomial Ridge Regression
+- **Why Chosen**: This model was selected to capture non-linear relationships between features and the continuous target variable, 'Lifespan.' By adding polynomial features, it allows the model to fit complex patterns that linear regression may miss. Ridge regularization helps prevent overfitting, which is important in datasets with many features and potential multicollinearity.
+- **Benefits**: Effective for datasets with non-linear relationships and for preventing overfitting through regularization.
+
+#### Random Forest Regression
+- **Why Chosen**: Random Forest Regression is an ensemble learning technique capable of handling complex, non-linear relationships in the data. By using multiple decision trees, it aggregates predictions to reduce variance and improve accuracy without needing to explicitly specify the relationships.
+- **Benefits**: Robust, automatic in uncovering feature interactions, and resistant to overfitting with proper tuning.
+
+#### Logistic Regression
+- **Why Chosen**: Selected for the classification task, where 'Lifespan' is divided into multiple classes. Logistic Regression is a simple, efficient model for multi-class classification tasks, especially when there are linear separations between the classes.
+- **Benefits**: Interpretable, computationally efficient, and useful as a baseline model for comparison with more complex models.
+
+#### Artificial Neural Network (ANN)
+- **Why Chosen**: ANNs are highly effective at capturing complex, non-linear patterns in data. With high-dimensional features and potential non-linear relationships in manufacturing, ANNs can model intricate interactions between features and the target variable.
+- **Benefits**: Capable of modeling highly complex relationships, particularly useful in high-dimensional, intricate datasets, with regularization techniques like dropout to reduce overfitting.
+
