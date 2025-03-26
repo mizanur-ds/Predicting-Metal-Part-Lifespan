@@ -43,8 +43,8 @@ The following steps are performed during data preprocessing:
 
 An unsupervised clustering technique, **K-Means**, was used to categorize lifespan hours into multiple classes based on their lifespan and related features. The **Elbow Method** was applied to analyze the sum of squared distances (inertia) for k values ranging from 1 to 10. This analysis revealed an optimal k value of 6 clusters, as indicated by the elbow plot, which showed a significant reduction in inertia up to this point. This approach resulted in six distinct clusters based on lifespan, reflecting subtle variations in manufacturing quality and process parameters.
 
-<img src="https://github.com/user-attachments/assets/3df5df1e-422e-40d0-8ef9-1aeb379fa378" alt="Image Description" width="500" height="300"/>
-![image](https://github.com/user-attachments/assets/f1a2dc44-84cf-4381-9883-91071a551f4c)
+<img src="https://github.com/user-attachments/assets/3df5df1e-422e-40d0-8ef9-1aeb379fa378" alt="Image Description" width="600" height="300"/>
+<img src="https://github.com/user-attachments/assets/f1a2dc44-84cf-4381-9883-91071a551f4c" alt="Image Description" width="600" height="300"/>
 
 **Fig-1:** Number of clusters vs Inertia  
 **Fig-2:** Inertia Values for Different Clusters
@@ -84,4 +84,54 @@ For predicting metal part lifespan and performing classification tasks, several 
 #### Artificial Neural Network (ANN)
 - **Why Chosen**: ANNs are highly effective at capturing complex, non-linear patterns in data. With high-dimensional features and potential non-linear relationships in manufacturing, ANNs can model intricate interactions between features and the target variable.
 - **Benefits**: Capable of modeling highly complex relationships, particularly useful in high-dimensional, intricate datasets, with regularization techniques like dropout to reduce overfitting.
+
+## Evaluation Metrics and Their Significance
+
+### Regression Metrics
+For regression models, the following metrics were used:
+
+- **Mean Squared Error (MSE):** Measures the average squared difference between predicted and actual values. Lower MSE indicates better model performance.
+- **R-squared (R²) Score:** Indicates the proportion of variance in the target variable explained by the model. Values closer to 1 indicate better performance.
+
+### Classification Metrics
+For classification models, these metrics were used:
+
+- **Accuracy:** Measures the proportion of correct predictions. Useful but may be insufficient for imbalanced datasets.
+- **Precision (Macro):** Measures the percentage of true positive predictions across all classes equally.
+- **Recall (Macro):** Measures the percentage of actual positive instances correctly predicted across all classes equally.
+- **F1 Score (Macro):** The harmonic mean of precision and recall, balancing both metrics for better evaluation of imbalanced data.
+
+---
+
+## Performance Results
+
+### Regression Models (Polynomial Ridge Regression vs. Random Forest Regression)
+
+| **Model**                  | **MSE**    | **R² Score** |
+|----------------------------|-------------|---------------|
+| Polynomial Ridge Regression | 24066.54    | 0.81          |
+| Random Forest Regression    | 40010.09    | 0.69          |
+
+**Interpretation:**  
+- Polynomial Ridge Regression outperforms Random Forest Regression with a significantly lower MSE and higher R² score. This suggests it better captures the relationships between features and the target variable.  
+- Random Forest Regression, while still effective, may struggle to model complex non-linear relationships as efficiently as Polynomial Ridge Regression.
+
+---
+
+### Classification Models (Logistic Regression vs. ANN)
+
+| **Metric**       | **Logistic Regression (After Tuning)** | **ANN (With Regularization)** |
+|------------------|----------------------------------------|-------------------------------|
+| Accuracy           | 0.24                                   | 0.56                          |
+| Precision (Macro)  | 0.15                                   | 0.56                          |
+| Recall (Macro)     | 0.19                                   | 0.57                          |
+| F1 Score (Macro)   | 0.16                                   | 0.56                          |
+
+**Interpretation:**  
+- The **ANN with Dropout Regularization** significantly outperforms Logistic Regression across all metrics. This improvement highlights ANN's ability to capture complex patterns in the data, especially with regularization to reduce overfitting.  
+- Logistic Regression, while simple and interpretable, struggles to model the dataset’s complexity, particularly in handling minority classes.
+
+---
+
+
 
