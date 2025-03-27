@@ -5,14 +5,14 @@
 
 ## Table of Contents
 - [Overview](#overview)
-- [Dataset](#data)
+- [Dataset](#dataset)
 - [Installation and Setup](#setup)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data Preprocessing](#data-dreprocessing)
 - [Feature Crafting to Make Category of Target Variable](#feature-crafting)
 - [Model Development](#model-development)
 - [Evaluation Metrics](#evaluation-metrics)
-- [Results](#results)
+- [Results](#result)
 ---
 ## Overview
 This work aims to predict the lifespan of metal parts using manufacturing data and material features. The dataset includes information on manufacturing processes and material characteristics, along with some known metal part lifespans that will serve as training data. To achieve the best predictions, various models from both regression and classification categories, as well as model combinations, will be explored. The model that demonstrates the lowest error, determined through statistical evaluation, will be selected as the optimal solution.
