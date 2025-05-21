@@ -148,7 +148,7 @@ The dataset contains several numerical and categorical features related to metal
   <img src="https://github.com/user-attachments/assets/9aafd6c2-de44-416d-91bd-98b268d32ffa" width="50%" />
 </p>
 
-<p align="center"><strong>Figure: Logistic Regression Confusion Matrix (After Tuning)</strong></p>
+<p align="center"><strong>Figure 7: Logistic Regression Confusion Matrix (After Tuning)</strong></p>
 
 
 #### ANN with Dropout
@@ -165,7 +165,7 @@ The dataset contains several numerical and categorical features related to metal
   <img src="https://github.com/user-attachments/assets/6fa4076d-d31f-4167-a132-4b9a70b32786" width="50%" />
 </p>
 
-<p align="center"><strong>Figure: ANN Confusion Matrix (With Regularization))</strong></p>
+<p align="center"><strong>Figure 8: ANN Confusion Matrix (With Regularization))</strong></p>
 
 
 
