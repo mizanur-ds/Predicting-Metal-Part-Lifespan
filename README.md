@@ -91,7 +91,6 @@ The dataset contains several numerical and categorical features related to metal
 
 #### Feature Engineering
 - **K-Means Clustering** used to transform lifespan into 6 discrete classes
-- New feature: `Target_Hour`
 - Clustering guided by Elbow Method
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5d4e79d3-c205-426a-b6d8-fdafa4905341" width="45%" />
