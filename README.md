@@ -94,14 +94,19 @@ The dataset contains several numerical and categorical features related to metal
 - New feature: `Target_Hour`
 - Clustering guided by Elbow Method
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5d4e79d3-c205-426a-b6d8-fdafa4905341" width="45%" style="height: 300px; object-fit: contain;" />
-  <img src="https://github.com/user-attachments/assets/de746553-c368-4519-a7b2-925f1396c919" width="45%" />
+  <img src="https://github.com/user-attachments/assets/5d4e79d3-c205-426a-b6d8-fdafa4905341" width="45%" />
+</p>
+<p align="center">
+  <strong>Figure 5: Number of Clusters vs Inertia</strong>
 </p>
 
 <p align="center">
-  <strong>Figure 5: Number of Clusters vs Inertia</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/de746553-c368-4519-a7b2-925f1396c919" width="45%" />
+</p>
+<p align="center">
   <strong>Figure 6: Inertia Values for Different Clusters</strong>
 </p>
+
 
 
 
