@@ -53,11 +53,11 @@ The dataset contains several numerical and categorical features related to metal
   <tr>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/933dcc3e-a7c2-4856-8cd0-b9d27ee5eb03" width="100%">
-      <br><strong>Figure 3: Scatter plots of Lifespan with all numerical features (Part 1)</strong>
+      <br><strong>Figure 3: Scatter plots of Lifespan with all numerical features 1</strong>
     </td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/e244a034-fdcd-4ea3-b3b5-6b61b976c755" width="100%">
-      <br><strong>Figure 4: Scatter plots of Lifespan with all numerical features (Part 2)</strong>
+      <br><strong>Figure 4: Scatter plots of Lifespan with all numerical features 2</strong>
     </td>
   </tr>
 </table>
@@ -98,8 +98,14 @@ The dataset contains several numerical and categorical features related to metal
 - Clustering guided by Elbow Method
 <p align="center">
   <img src="https://github.com/user-attachments/assets/de746553-c368-4519-a7b2-925f1396c919" width="45%" />
-  <img src="https://github.com/user-attachments/assets/5d4e79d3-c205-426a-b6d8-fdafa4905341" width="45%" />
+  <img src="https://github.com/user-attachments/assets/5d4e79d3-c205-426a-b6d8-fdafa4905341" width="45%" style="height: 250px; object-fit: contain;" />
 </p>
+
+<p align="center">
+  <strong>Figure 5: Number of Clusters vs Inertia</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <strong>Figure 6: Inertia Values for Different Clusters</strong>
+</p>
+
 
 
 
@@ -140,9 +146,10 @@ The dataset contains several numerical and categorical features related to metal
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9aafd6c2-de44-416d-91bd-98b268d32ffa" width="50%" />
-  <br>
-  <em>Figure: Logistic Regression Confusion Matrix (After Tuning)</em>
 </p>
+
+<p align="center"><strong>Figure: Logistic Regression Confusion Matrix (After Tuning)</strong></p>
+
 
 #### ANN with Dropout
 
@@ -153,11 +160,13 @@ The dataset contains several numerical and categorical features related to metal
 | Recall      | 0.29             | 0.57         |
 | F1 Score    | 0.28             | **0.56**     |
 
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/6fa4076d-d31f-4167-a132-4b9a70b32786" width="50%" />
-  <br>
-  <strong>Figure: ANN Confusion Matrix (After Tuning)</strong>
 </p>
+
+<p align="center"><strong>Figure: ANN Confusion Matrix (With Regularization))</strong></p>
+
 
 
 ---
