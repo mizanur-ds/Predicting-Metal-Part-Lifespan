@@ -39,7 +39,29 @@ The dataset contains several numerical and categorical features related to metal
 - **Categorical Analysis**: Boxplots showed noticeable class-based differences in `MaterialType`.
 - **Missing Values**: Handled using mean imputation.
 - **Visualization**: Histograms, scatter plots, box plots, and correlation matrix were used.
-<table> <tr> <td><img src="https://github.com/user-attachments/assets/88bcbb3a-bebb-4985-ae6a-5dd017988da1" width="100%"></td> <td><img src="https://github.com/user-attachments/assets/469e2bfe-e714-4064-bd30-8075e1c8200e" width="100%"></td> </tr> <tr> <td><img src="https://github.com/user-attachments/assets/933dcc3e-a7c2-4856-8cd0-b9d27ee5eb03" width="100%"></td> <td><img src="https://github.com/user-attachments/assets/e244a034-fdcd-4ea3-b3b5-6b61b976c755" width="100%"></td> </tr> </table>
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/88bcbb3a-bebb-4985-ae6a-5dd017988da1" width="100%">
+      <br><strong>Figure 1: Correlation Heatmap</strong>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/469e2bfe-e714-4064-bd30-8075e1c8200e" width="100%">
+      <br><strong>Figure 2: Box plots of the Lifespan feature with all categorical features</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/933dcc3e-a7c2-4856-8cd0-b9d27ee5eb03" width="100%">
+      <br><strong>Figure 3: Scatter plots of Lifespan with all numerical features (Part 1)</strong>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/e244a034-fdcd-4ea3-b3b5-6b61b976c755" width="100%">
+      <br><strong>Figure 4: Scatter plots of Lifespan with all numerical features (Part 2)</strong>
+    </td>
+  </tr>
+</table>
+
 
 
 
