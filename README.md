@@ -27,7 +27,7 @@ The objective is to develop machine learning models that can predict the lifespa
 
 ## 📊 Data Description
 
-The dataset contains several numerical and categorical features related to metal manufacturing processes. The main target variable is the **Lifespan (in hours)** of each metal part.
+The dataset contains several numerical and categorical features related to metal manufacturing processes. The main target variable is the **Lifespan** of each metal part.
 
 ---
 
@@ -37,8 +37,12 @@ The dataset contains several numerical and categorical features related to metal
 - **Outliers**: Detected in features like `CoolingRate` and `ProcessTemp`.
 - **Correlation Analysis**: Strong correlation between `Lifespan` and `Hardness`, `TreatmentTime`, etc.
 - **Categorical Analysis**: Boxplots showed noticeable class-based differences in `MaterialType`.
-- **Missing Values**: Handled using mean/mode imputation.
+- **Missing Values**: Handled using mean imputation.
 - **Visualization**: Histograms, scatter plots, box plots, and correlation matrix were used.
+<table> <tr> <td><img src="https://github.com/user-attachments/assets/88bcbb3a-bebb-4985-ae6a-5dd017988da1" width="100%"></td> <td><img src="https://github.com/user-attachments/assets/469e2bfe-e714-4064-bd30-8075e1c8200e" width="100%"></td> </tr> <tr> <td><img src="https://github.com/user-attachments/assets/933dcc3e-a7c2-4856-8cd0-b9d27ee5eb03" width="100%"></td> <td><img src="https://github.com/user-attachments/assets/e244a034-fdcd-4ea3-b3b5-6b61b976c755" width="100%"></td> </tr> </table>
+
+
+
 
 ---
 
