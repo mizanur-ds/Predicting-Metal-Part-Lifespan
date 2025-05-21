@@ -74,6 +74,12 @@ The dataset contains several numerical and categorical features related to metal
 - **K-Means Clustering** used to transform lifespan into 6 discrete classes
 - New feature: `Target_Hour`
 - Clustering guided by Elbow Method
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/de746553-c368-4519-a7b2-925f1396c919" width="45%" />
+  <img src="https://github.com/user-attachments/assets/5d4e79d3-c205-426a-b6d8-fdafa4905341" width="45%" />
+</p>
+
+
 
 #### Models Used:
 1. **Logistic Regression**
@@ -96,6 +102,7 @@ The dataset contains several numerical and categorical features related to metal
 | Polynomial Ridge      | **24,066.54** | **0.81**  |
 | Random Forest         | ~30,500    | 0.74     |
 
+
 ---
 
 ### Classification
@@ -109,6 +116,12 @@ The dataset contains several numerical and categorical features related to metal
 | Recall      | 0.28          | 0.19         |
 | F1 Score    | 0.16          | 0.16         |
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9aafd6c2-de44-416d-91bd-98b268d32ffa" width="50%" />
+  <br>
+  <em>Figure: Logistic Regression Confusion Matrix (After Tuning)</em>
+</p>
+
 #### ANN with Dropout
 
 | Metric      | Without Dropout | With Dropout |
@@ -117,6 +130,13 @@ The dataset contains several numerical and categorical features related to metal
 | Precision   | 0.30             | 0.56         |
 | Recall      | 0.29             | 0.57         |
 | F1 Score    | 0.28             | **0.56**     |
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6fa4076d-d31f-4167-a132-4b9a70b32786" width="50%" />
+  <br>
+  <strong>Figure: ANN Confusion Matrix (After Tuning)</strong>
+</p>
+
 
 ---
 
