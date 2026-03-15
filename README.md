@@ -1,4 +1,4 @@
-# 💡 Predictive Modeling of Metal Part Lifespan
+# 💡 Machine Learning for Predicting Metal Component Lifespan
 
 This project predicts the lifespan of metal parts using supervised machine learning. It involves regression (to predict lifespan as a continuous variable) and classification (by clustering lifespan into discrete categories).
 
